@@ -15,17 +15,17 @@
     }
   ],
   "dependencies": {
-    "async": "0.1.18",
-    "async-stacktrace": "0.0.2",
-    "express": "^4.15.5",
-    "formidable": "1.0.9",
-    "jsdom-nocontextifiy": "0.2.10",
-    "log4js": "0.4.1",
-    "mysql": "^2.15.0",
-    "require-kernel": "1.0.3",
-    "socket.io": "^2.0.4",
-    "socket.io-client": "0.9.5",
-    "ueberDB": "0.1.7"
+    "async": "^2.6.0",
+    "async-stacktrace": "latest",
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "jsdom-nocontextifiy": "latest",
+    "log4js": "^2.3.12",
+    "mysql": "latest",
+    "require-kernel": "^1.0.6",
+    "socket.io": "latest",
+    "socket.io-client": "^2.0.4",
+    "ueberDB": "^0.2.16"
   },
   "version": "1.0.0",
   "devDependencies": {
