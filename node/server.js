@@ -402,7 +402,7 @@ async.waterfall([
     });
     
     //let the server listen
-    app.listen(settings.port, settings.ip);
+    app.listen(process.env.PORT || settings.port, settings.ip);
     console.log("Server is listening at " + settings.ip + ":" + settings.port);
 
     var onShutdown = false;
